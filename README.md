@@ -1,8 +1,8 @@
-# Opinion-Propagation
-Reinforcement learners living on the vertices of a graph discuss an issue, and update their beliefs depending on the result of the conversation
+# Reinforcement-Learners-Games-and-Opinions
+Reinforcement learners living on the vertices of a graph discuss an issue, and update their beliefs depending on the result of the conversation.
 
 # Opinion-Propagation
-In this model, neighboring nodes converse with one another, and randomly agree on opinion U or opinion V. If they agree on opinion U, each vertex increases its propensity to hold opinion U in the future (thereby affecting the probability distribution of future discussions). A similar update occurs if they agree on opinion V. This code models such interactions, and demonstrates the learners' tendency towards consensus.
+In this model, neighboring nodes converse with one another, and randomly agree on opinion U or opinion V. If they agree on opinion U, each vertex increases its propensity to hold opinion U in the future (thereby affecting the probability distribution of future discussions). A similar update occurs if they agree on opinion V. This code models such interactions, and demonstrates the learners' tendency towards consensus. A paper proving the consensus of opinions for this model is in the works!
 
 # Ultimatum game two players
 In this model, two players play an 'Ultimatum Game'. This game involves player A offering player B a certain portion of a $100 dollar pool. Player B can accept (in which case player B gets their share, and player A gets the remainder), or reject (both players get nothing). This code studies the long-term behavior of the two reinforcement learners
