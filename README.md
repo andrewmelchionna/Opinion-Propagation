@@ -11,4 +11,4 @@ In this model, two players play an 'Ultimatum Game'. This game involves player A
 A generalization of the opinion-propagation code. Two connected nodes each play move U or move V, without knowing what the other node is playing. Players are rewarded if they play the same move. Note that this differs from opinion-propagation because 1) they are not forced to agree, 2) U and V might be associated to different reinforcement weights, 3) we explore different ways that a probability distribution for future moves is derived from the accumulated reinforcement weights 
 
 # Prob of visitation Polya
-The above models are very similar to Polya's urn. I used this code in an attempt to simplify and understand the convergence properties of the players' moves
+The cooperation game above generalizes the classic Polya's Urn problem. I used this code in an attempt to simplify and understand the convergence properties of the players' strategies.
